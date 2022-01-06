@@ -1,0 +1,391 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header{
+    background: #313131;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    padding: 0px 27px 0px 27px;
+}
+
+.header-text{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+}
+
+.list-item{
+    
+    padding: 28px 35px 26px 35px;
+}
+
+.list-item-link{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    /* line-height: 20px; */
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* padding: 28px 35px 26px 35px; */
+}
+
+.list-item-link:hover{
+    color: #14B9D5;
+    transition: 0.3s;
+}
+
+.header-search{
+    padding: 0px 26px 0px 26px;
+    background: #000000;
+}
+
+
+/* MAIN */
+.main{
+    background: #F2F2F2;
+}
+
+/* THE LATEST NEWS ON DESIGN & ARCHITECTURE */
+.latest-news{
+    background-image: url(../header-bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: rgba(0.3, 0.3, 0.3, 0.7);
+}
+
+.latest-news-title{
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 163px
+    
+}
+
+.latest-news-button{
+    padding-top: 44px;
+    padding-bottom: 74px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.button{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.green-button{
+    padding: 16px 19px 17px 19px;
+    background: #89CA62;
+}
+
+.blue-button{
+    padding: 16px 29px 17px 30px;
+    background: #14B9D5;
+}
+
+
+/* Most popular posts */
+
+.post{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 925px;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    align-content: space-between;
+}
+.posts{
+   width: 370px;
+   margin-bottom: 32px;
+}
+
+.posts-image{
+width: 100%;
+}
+
+.posts-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353A3D;
+    background: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+/* our most popular clients */
+
+.popular-clients{
+    background-image: url(../parallax-bg.jpeg);
+    background-repeat: no-repeat;
+	/* background-size: cover; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    justify-items: center;
+
+    height: 588px;
+    background-position-y: -187px;
+}
+
+.popular-clients-title{
+    font-weight: bold;
+    font-size: 32px;
+    /* line-height: 44px; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 106px;
+}
+
+.decoration-line{
+    width: 60px;
+    height: 3px;
+    background: #18B4CF;
+    margin-top: 87px;
+    margin-bottom: 117px;
+}
+
+.clients{
+    display: grid;
+	grid-auto-flow: column;
+	column-gap: 58px;
+	justify-content: center;
+    padding-bottom: 195px;
+}
+
+/* top rated */
+
+.rated-photo{
+    display: grid;
+    /* grid-template-columns:repeat(7,1fr); */
+    /* height: 190px; */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-items: stretch;
+}
+
+/* hot news */ 
+.hot-news{
+    margin-bottom: 77px;
+    background: #FFFFFF;
+}
+
+
+.content_news{
+    display: grid;
+    align-items: start;
+    grid-row-gap: 40px;
+    grid-column-gap: 60px;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "post1 post1 post1 post2"
+    "post3 post3 post4 post4"
+    "post5 post5 post6 post6"
+    "post7 post8 post8 post8"
+}
+.news{
+    background-color: #f2f2f2;
+}
+.news_posts_title{
+    padding-top: 14px;
+    padding-right: 15px;
+    color: #353A3D;
+    ;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: right;
+}
+.news_posts_text{
+    padding-top: 15px;
+    padding-right: 15px;
+    color: #5b6469;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    text-align: right;
+}
+.title_small{
+    text-align: center;
+    padding: 14px 0px 11px 0px;
+    font-weight: bold;
+    /* padding-top: 14px;
+    padding-bottom: 11px; */
+}
+
+.title_small-top{
+    text-align: center;
+    padding: 5px 0px 20px 0px;
+    font-weight: bold;
+}
+
+.title_big{
+    padding-right: 0;
+    padding-bottom: 14px;
+    font-weight: bold;
+}
+.text_big{
+    padding-top: 0;
+    padding-right: 0;
+}
+.news_posts{
+    padding-top: 21px;
+    padding-right: 25px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.emirates {
+    grid-area: post1;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.spain {
+    grid-area: post2;
+}
+
+.egypt {
+    grid-area: post3;
+}
+
+.maldives {
+    grid-area: post4;
+}
+
+.tenerife {
+    grid-area: post5;
+}
+
+.britain {
+    grid-area: post6;
+}
+
+.ireland {
+    grid-area: post7;
+}
+
+.spain_kings {
+    grid-area: post8;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
+
+/* FOOTER */ 
+
+.footer{
+    background: #000000;
+    
+}
+
+.footer-content{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text{
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.footer-section{
+    display: flex;
+    column-gap: 3px;
+    /* justify-content: center; */
+    padding-top: 29px;
+    padding-bottom: 27px;
+}
+
+
+
+
+
+
+
+
+.section-title{
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #18B4CF;
+    padding-top: 49px;
+    padding-bottom: 52px;
+}
+
+div.scrollup {
+    position: fixed;
+    color: #FFFFFF; 
+    background-color: #F1C40F; 
+    right: 20px;
+    bottom: 30px; 
+    padding: 4px 10px;
+    font-size: 20px; 
+    border-radius: 4px;
+    cursor: pointer; 
+    display: none; 
+    text-align: center; 
+  }
+  div.scrollup:hover {
+    background-color: #997e10; 
+  }
+
+
+  .hide{
+display: flex;
+justify-content: center;
+}
+
+.hide-button{
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
